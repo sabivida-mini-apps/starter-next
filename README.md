@@ -1,6 +1,6 @@
-<p><img src="https://raw.githubusercontent.com/sabivida-mini-apps/.github/main/assets/social-first-app-next.png" alt="SabiVida first app with Next.js: SabiVida sign-in on your server." width="100%"></p>
+<p><img src="https://raw.githubusercontent.com/sabivida-mini-apps/.github/main/assets/social-starter-next.png" alt="SabiVida mini app starter with Next.js: SabiVida sign-in on your server." width="100%"></p>
 
-# Your first SabiVida mini app, with Next.js
+# SabiVida mini app starter, with Next.js
 
 A Next.js (App Router) + TypeScript template for a [SabiVida mini app](https://github.com/sabivida-mini-apps/partner-kit). The page signs the member in through SabiVida, and a route handler verifies the launch token. Click **Use this template** to start your own.
 
