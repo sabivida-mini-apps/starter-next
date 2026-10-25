@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+.env*.local
+.env
+public/sdk/
+next-env.d.ts
+*.tsbuildinfo
+.DS_Store
+AGENTS.md

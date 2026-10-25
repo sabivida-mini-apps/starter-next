@@ -1,0 +1,25 @@
+{
+  "name": "my-sabivida-mini-app",
+  "private": true,
+  "version": "0.1.0",
+  "description": "SabiVida mini app built with Next.js (App Router) and TypeScript.",
+  "scripts": {
+    "dev": "next dev -p 4323",
+    "dev:mock": "node scripts/dev-mock.mjs http://localhost:4323/ next dev -p 4323",
+    "build": "next build",
+    "start": "next start -p ${PORT:-4323}",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "jose": "^6.2.13",
+    "next": "^16.4.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "~6.0.3"
+  }
+}
