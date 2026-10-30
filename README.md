@@ -24,7 +24,7 @@ cp .env.example .env.local   # set MINI_APP_ID to the id SabiVida gave you
 npm run build && npm start
 ```
 
-Deploy it to any Next.js host (Vercel, Node, containers) with `NEXT_PUBLIC_SABIVIDA_HOST` and `MINI_APP_ID` set. Every response carries `Content-Security-Policy: frame-ancestors <SabiVida>` (`next.config.ts`).
+Deploy it to any Next.js host (Vercel, Node, containers) with `MINI_APP_ID` set (`NEXT_PUBLIC_SABIVIDA_HOST` defaults to `https://app.sabivida.com`). Every response carries `Content-Security-Policy: frame-ancestors https://app.sabivida.com https://sabivida.com` (`next.config.ts`): SabiVida may frame your app from either host, and launch tokens keep the `https://sabivida.com` issuer.
 
 ## What's inside
 
